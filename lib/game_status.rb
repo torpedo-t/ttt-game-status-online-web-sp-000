@@ -23,5 +23,5 @@ end
 
 def full?(board)
 #binding.pry
-  !board.all? == " " || board.all? == nil
+  board.all?{|token| token == "X" || token == "O"}
 end
