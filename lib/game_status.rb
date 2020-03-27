@@ -25,3 +25,6 @@ def full?(board)
 #binding.pry
   board.all?{|token| token == "X" || token == "O"}
 end
+
+def draw?(board)
+  
