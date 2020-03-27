@@ -36,6 +36,6 @@ end
 
 def winner(board)
   if won?(board)
- return board
+ return board(index)
 end
 end
