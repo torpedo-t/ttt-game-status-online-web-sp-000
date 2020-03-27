@@ -35,6 +35,8 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
+  token_1 = "X"
+  token_2 = "O"
+  if won?(board) == "
 end
 end
