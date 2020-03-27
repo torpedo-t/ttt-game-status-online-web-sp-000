@@ -35,5 +35,9 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
+  if WIN_COMBINATIONS[index_array] == "X"
+    return "X"
+  elsif WIN_COMBINATIONS[index_array] == "O"
+    return "O"
+end
 end
