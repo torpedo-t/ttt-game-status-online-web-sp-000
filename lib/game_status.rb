@@ -37,4 +37,3 @@ end
 def winner(board)
   full?(board) && won?(board)
 end
-end
