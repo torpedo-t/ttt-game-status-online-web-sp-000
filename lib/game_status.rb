@@ -37,6 +37,6 @@ end
 def winner(board)
   if won?(board)
  winning_combo = won?(board)
- 
+ winning_combo(board)
 end
 end
