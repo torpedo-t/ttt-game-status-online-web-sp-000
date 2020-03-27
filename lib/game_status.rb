@@ -35,6 +35,6 @@ def over?(board)
 end
 
 def winner(board)
-  if WIN_COMBINATIONS(index) == "X"
+  
 end
 end
