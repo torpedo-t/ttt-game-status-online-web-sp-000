@@ -30,4 +30,4 @@ def draw?(board)
   full?(board) && !won?(board)
 end
 
-def 
+def over?(board)
